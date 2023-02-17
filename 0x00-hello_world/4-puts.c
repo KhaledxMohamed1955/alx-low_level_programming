@@ -1,8 +1,8 @@
 #include<stdio.h>
 /**
- * Main function - just print a one line
+ * Main - just print a one line
  *
- * always will return 0
+ * Return: always will return 0
  */
 int main(void)
 {
