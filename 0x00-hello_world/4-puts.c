@@ -1,5 +1,6 @@
 #include<stdio.h>
-/*Main function just print a one line
+/**
+ * Main function - just print a one line
  *
  * always will return 0
  */
