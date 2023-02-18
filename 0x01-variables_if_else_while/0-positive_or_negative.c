@@ -3,14 +3,14 @@
 #include <stdio.h>
 
 /**
- * main - Simple conditional program
+ * main - Counter from zero will know i positive.
  *
- * Return: will Always return 0
+ * Return: Will always return 0
  */
 int main(void)
 {
 	int n;
-	
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
