@@ -1,11 +1,12 @@
 #include<stdio.h>
-
+#include"main.h"
+#define print_alphabet main
 /**
  * main - Print the alphabet in lowerCase
  *
  * Return: Will always return 0
  */
-int main(void)
+void print_alphabet(void)
 {
 	char alphabet[26] = "abcdefghijklmnopqrstuvwxyz";
 	int i;
@@ -15,5 +16,4 @@ int main(void)
 		putchar(alphabet[i]);
 	}
 	putchar('\n');
-	return (0);
 }
