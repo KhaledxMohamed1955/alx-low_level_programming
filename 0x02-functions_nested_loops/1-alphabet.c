@@ -6,7 +6,7 @@
  *
  * Return: Will always return 0
  */
-void print_alphabet(void)
+int print_alphabet(void)
 {
 	char alphabet[26] = "abcdefghijklmnopqrstuvwxyz";
 	int i;
